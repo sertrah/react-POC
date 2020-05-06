@@ -30,6 +30,51 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Form
     - FormikJest
 
+## Folder Structure
+
+- src/
+--- domain/
+----- User/
+------- Profile/
+------- Avatar/
+----- Message/
+------- MessageItem/
+------- MessageList/
+----- Payment/
+------- PaymentForm/
+------- PaymentWizard/
+----- Error/
+------- ErrorMessage/
+------- ErrorBoundary/
+--- components/
+----- App/
+------- index.js
+------- test.js
+------- style.css
+----- List/
+------- index.js
+------- test.js
+------- style.css
+--- hooks/
+----- useClickOutside/
+------- index.js
+----- useData/
+------- index.js
+--- context/
+----- Session/
+------- index.js
+--- services/
+----- ErrorTracking/
+------- index.js
+------- test.js
+----- Format/
+------- Date/
+--------- index.js
+--------- test.js
+------- Currency/
+--------- index.js
+--------- test.js
+
 
 
 
