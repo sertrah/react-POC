@@ -1,34 +1,35 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## goals
+## Challengers
 
-### Middleware
-    - Redux-thunk
-    - Redux-saga
-### Fetch
+### 1 Form
+    - FormikJest
+
+### 2 Fetch
     - Axios
 
-### Data Structure
+### 3 Middleware
+    - Redux-thunk
+    - Redux-saga
+
+### 4 Data Structure
     - Inmutablesjs
 
-### CSS
+### 5 CSS
     - Sass
     - styled-component
     - Glamor
     - emotion				
 
-
-### Accesibilidad
+### 6 Accesibilidad
     - wcag   
 
-### Internacionalizeichon
+### 7 Internacionalizeichon
     - react-intl
 
-### Router
+### 8 Router
     - React-Router
 
-### Form
-    - FormikJest
 
 ## Folder Structure
 
@@ -41,27 +42,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     ------- MessageItem/
     ------- MessageList/
     ----- Payment/
-    ------- PaymentForm/
-    ------- PaymentWizard/
     ----- Error/
     ------- ErrorMessage/
     ------- ErrorBoundary/
     --- components/
-    ----- App/
-    ------- index.js
-    ------- test.js
-    ------- style.css
-    ----- List/
-    ------- index.js
-    ------- test.js
-    ------- style.css
-    --- hooks/
-    ----- useClickOutside/
-    ------- index.js
-    ----- useData/
-    ------- index.js
     --- context/
-    ----- Session/
+    ----- themeApi/
     ------- index.js
     --- services/
     ----- ErrorTracking/
