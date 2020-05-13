@@ -1,0 +1,12 @@
+/**
+ * Action types
+ */
+const CHANGE_LOCALE_LANGUAGE_SUCCESS = 'CHANGE_LOCALE_LANGUAGE_SUCCESS';
+
+const RESET_LOCAL = 'RESET_LOCAL ';
+
+
+export const constants = {
+  CHANGE_LOCALE_LANGUAGE_SUCCESS,
+  RESET_LOCAL,
+};

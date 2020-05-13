@@ -3,8 +3,11 @@ import { constants } from "stateManagment/actions/user";
 import { connect } from "react-redux";
 import { getUser } from "stateManagment/reselect/user";
 import PropTypes from "prop-types";
+
 import Avatar from "./Avatar";
 import Profile from "./Profile";
+import BtnReload from "./Reload";
+
 import "./style.sass";
 import { Grid, Row, Col } from "react-flexbox-grid";
 
@@ -13,8 +16,8 @@ const User = ({ userInfo, getUser }) => {
   console.log(userInfo);
 
   return (
-    <Grid fluid>
-      <Row className="user__container">
+    <Grid fluid className="user__container">
+      <Row >
         <Col xs={12} md={4}>
           <Avatar
             picture={userInfo?.picture.large}
@@ -26,6 +29,7 @@ const User = ({ userInfo, getUser }) => {
           <Profile userInfo={userInfo} />
         </Col>
       </Row>
+      <BtnReload myDynFunc={()=> getUser() }/>
     </Grid>
   );
 };
